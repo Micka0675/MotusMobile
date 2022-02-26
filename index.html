@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Motus</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+    <body>
+       
+        <header>
+            <!-- <h1>Motus</h1> -->
+            <img src="images/motus.png">
+        </header>
+        <div class="wrapper">
+            <div id="contBtn" class="containerBtn">
+                <input type="button" id="play" class="play" value="Play!">
+            </div>
+            <div id="zoneWin" class="zoneWin">
+            </div>
+            <div id="retry1" id="retry1" class="containerBtn2">
+                <input type="button" class="retry" value="Rejouer">
+            </div>
+            <div id="zoneLose" class="zoneLose">
+            </div>
+            <div id="retry2" class="containerBtn2">
+                <input type="button" class="retry" value="Rejouer">
+            </div>
+            <article id="reglesDuJeu" class="reglesDuJeu">
+                <h2>Bienvenue dans Motus!</h2>
+                <p>Les regles sont simples. Vous avez 5 essais pour trouver un mot, les lettres presentes dans le mot à trouver mais a la mauvaise place seront surlignées en jaune, les lettres exactement à la bonne place en rouge. Bonne chance!</p>
+                <p id="disclaim" class="disclaim">IMPORTANT: Les lettres minuscules ne sont pas reconnues!</p>
+            </article>
+            <article id="zoneJeu" class="zoneJeu">
+                <section>
+                    <input disabled type="text" class="ligne1" id="val1" value="" maxlength="1">
+                    <input disabled type="text" class="ligne1" id="val2" value="" maxlength="1">
+                    <input disabled type="text" class="ligne1" id="val3" value="" maxlength="1">
+                    <input disabled type="text" class="ligne1" id="val4" value="" maxlength="1">
+                    <input disabled type="text" class="ligne1" id="val5" value="" maxlength="1">
+                </section>
+                <section>
+                    <input disabled type="text" class="ligne2" maxlength="1">
+                    <input disabled type="text" class="ligne2" maxlength="1">
+                    <input disabled type="text" class="ligne2" maxlength="1">
+                    <input disabled type="text" class="ligne2" maxlength="1">
+                    <input disabled type="text" class="ligne2" maxlength="1">
+                </section>
+                <section>
+                    <input disabled type="text" class="ligne3" maxlength="1">
+                    <input disabled type="text" class="ligne3" maxlength="1">
+                    <input disabled type="text" class="ligne3" maxlength="1">
+                    <input disabled type="text" class="ligne3" maxlength="1">
+                    <input disabled type="text" class="ligne3" maxlength="1">
+                </section>
+                <section>
+                    <input disabled type="text" class="ligne4" maxlength="1">
+                    <input disabled type="text" class="ligne4" maxlength="1">
+                    <input disabled type="text" class="ligne4" maxlength="1">
+                    <input disabled type="text" class="ligne4" maxlength="1">
+                    <input disabled type="text" class="ligne4" maxlength="1">
+                </section>
+                <section>
+                    <input disabled type="text" class="ligne5" maxlength="1">
+                    <input disabled type="text" class="ligne5" maxlength="1">
+                    <input disabled type="text" class="ligne5" maxlength="1">
+                    <input disabled type="text" class="ligne5" maxlength="1">
+                    <input disabled type="text" class="ligne5" maxlength="1">
+                </section>
+            </article>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
