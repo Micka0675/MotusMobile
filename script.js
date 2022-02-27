@@ -129,7 +129,7 @@ retent2.addEventListener('click',recharge);
 
 function recharge()
 {
-    location.reload();
+    location.reload(true);
 }
 
 for (i = 0 ; i < 5 ; i ++)
@@ -155,16 +155,22 @@ function partie()
     console.log(charAtrouv);
         ligne1[1].onkeyup = function check1()
         {
-            tabRep.push(ligne1[0].value);
-            tabRep.push(ligne1[1].value);
+            var valeur = ligne1[0].value;
+            valeur = valeur.toUpperCase();
+            tabRep.push(valeur);
+            valeur = ligne1[1].value;
+            valeur = valeur.toUpperCase();
+            tabRep.push(valeur);
             ligne1[1].disabled = true;
             ligne1[2].disabled = false;
             ligne1[2].focus();
-            console.log(ligne1[1].value);
+            console.log(tabRep);
         };
         ligne1[2].onkeyup = function check2()
         {
-            tabRep.push(ligne1[2].value);
+            valeur = ligne1[2].value;
+            valeur = valeur.toUpperCase();
+            tabRep.push(valeur);
             ligne1[2].disabled = true;
             ligne1[3].disabled = false;
             ligne1[3].focus();
@@ -172,7 +178,9 @@ function partie()
         };
         ligne1[3].onkeyup = function check3()
         {
-            tabRep.push(ligne1[3].value);
+            valeur = ligne1[3].value;
+            valeur = valeur.toUpperCase();
+            tabRep.push(valeur);
             ligne1[3].disabled = true;
             ligne1[4].disabled = false;
             ligne1[4].focus();
@@ -180,8 +188,9 @@ function partie()
         };
         ligne1[4].onkeyup = function check4()
         {
-            console.log(ligne1[3].value);
-            tabRep.push(ligne1[4].value);
+            valeur = ligne1[4].value;
+            valeur = valeur.toUpperCase();
+            tabRep.push(valeur);
             var testRep = tabRep.join("");
             var compRep = charAtrouv.join("");
             for(i = 0 ; i < ligne1.length ; i ++)
@@ -234,8 +243,12 @@ function partie()
 
         ligne2[1].onkeyup = function check5()
         {
-            tabRep.push(ligne2[0].value);
-            tabRep.push(ligne2[1].value);
+            var valeur = ligne2[0].value;
+            valeur = valeur.toUpperCase();
+            tabRep.push(valeur);
+            valeur = ligne2[1].value;
+            valeur = valeur.toUpperCase();
+            tabRep.push(valeur);
             ligne2[1].disabled = true;
             ligne2[2].disabled = false;
             ligne2[2].focus();
@@ -243,7 +256,9 @@ function partie()
         };
         ligne2[2].onkeyup = function check6()
         {
-            tabRep.push(ligne2[2].value);
+            valeur = ligne2[2].value;
+            valeur = valeur.toUpperCase();
+            tabRep.push(valeur);
             ligne2[2].disabled = true;
             ligne2[3].disabled = false;
             ligne2[3].focus();
@@ -251,7 +266,9 @@ function partie()
         };
         ligne2[3].onkeyup = function check7()
         {
-            tabRep.push(ligne2[3].value);
+            valeur = ligne2[3].value;
+            valeur = valeur.toUpperCase();
+            tabRep.push(valeur);
             ligne2[3].disabled = true;
             ligne2[4].disabled = false;
             ligne2[4].focus();
@@ -259,8 +276,9 @@ function partie()
         };
         ligne2[4].onkeyup = function check8()
         {
-            console.log(ligne2[3].value);
-            tabRep.push(ligne2[4].value);
+            valeur = ligne2[4].value;
+            valeur = valeur.toUpperCase();
+            tabRep.push(valeur);
             var testRep = tabRep.join("");
             var compRep = charAtrouv.join("");
             for(i = 0 ; i < ligne2.length ; i ++)
@@ -313,8 +331,12 @@ function partie()
 
         ligne3[1].onkeyup = function check9()
         {
-            tabRep.push(ligne3[0].value);
-            tabRep.push(ligne3[1].value);
+            var valeur = ligne3[0].value;
+            valeur = valeur.toUpperCase();
+            tabRep.push(valeur);
+            valeur = ligne3[1].value;
+            valeur = valeur.toUpperCase();
+            tabRep.push(valeur);
             ligne3[1].disabled = true;
             ligne3[2].disabled = false;
             ligne3[2].focus();
@@ -322,7 +344,9 @@ function partie()
         };
         ligne3[2].onkeyup = function check10()
         {
-            tabRep.push(ligne3[2].value);
+            valeur = ligne3[2].value;
+            valeur = valeur.toUpperCase();
+            tabRep.push(valeur);
             ligne3[2].disabled = true;
             ligne3[3].disabled = false;
             ligne3[3].focus();
@@ -330,7 +354,9 @@ function partie()
         };
         ligne3[3].onkeyup = function check11()
         {
-            tabRep.push(ligne3[3].value);
+            valeur = ligne3[3].value;
+            valeur = valeur.toUpperCase();
+            tabRep.push(valeur);
             ligne3[3].disabled = true;
             ligne3[4].disabled = false;
             ligne3[4].focus();
@@ -338,8 +364,9 @@ function partie()
         };
         ligne3[4].onkeyup = function check12()
         {
-            console.log(ligne3[3].value);
-            tabRep.push(ligne3[4].value);
+            valeur = ligne3[4].value;
+            valeur = valeur.toUpperCase();
+            tabRep.push(valeur);
             var testRep = tabRep.join("");
             var compRep = charAtrouv.join("");
             for(i = 0 ; i < ligne3.length ; i ++)
@@ -392,8 +419,12 @@ function partie()
 
         ligne4[1].onkeyup = function check13()
         {
-            tabRep.push(ligne4[0].value);
-            tabRep.push(ligne4[1].value);
+            var valeur = ligne4[0].value;
+            valeur = valeur.toUpperCase();
+            tabRep.push(valeur);
+            valeur = ligne4[1].value;
+            valeur = valeur.toUpperCase();
+            tabRep.push(valeur);
             ligne4[1].disabled = true;
             ligne4[2].disabled = false;
             ligne4[2].focus();
@@ -401,7 +432,9 @@ function partie()
         };
         ligne4[2].onkeyup = function check14()
         {
-            tabRep.push(ligne4[2].value);
+            valeur = ligne4[2].value;
+            valeur = valeur.toUpperCase();
+            tabRep.push(valeur);
             ligne4[2].disabled = true;
             ligne4[3].disabled = false;
             ligne4[3].focus();
@@ -409,7 +442,9 @@ function partie()
         };
         ligne4[3].onkeyup = function check15()
         {
-            tabRep.push(ligne4[3].value);
+            valeur = ligne4[3].value;
+            valeur = valeur.toUpperCase();
+            tabRep.push(valeur);
             ligne4[3].disabled = true;
             ligne4[4].disabled = false;
             ligne4[4].focus();
@@ -417,8 +452,9 @@ function partie()
         };
         ligne4[4].onkeyup = function check16()
         {
-            console.log(ligne4[3].value);
-            tabRep.push(ligne4[4].value);
+            valeur = ligne4[4].value;
+            valeur = valeur.toUpperCase();
+            tabRep.push(valeur);
             var testRep = tabRep.join("");
             var compRep = charAtrouv.join("");
             for(i = 0 ; i < ligne4.length ; i ++)
@@ -471,8 +507,12 @@ function partie()
 
         ligne5[1].onkeyup = function check17()
         {
-            tabRep.push(ligne5[0].value);
-            tabRep.push(ligne5[1].value);
+            var valeur = ligne5[0].value;
+            valeur = valeur.toUpperCase();
+            tabRep.push(valeur);
+            valeur = ligne5[1].value;
+            valeur = valeur.toUpperCase();
+            tabRep.push(valeur);
             ligne5[1].disabled = true;
             ligne5[2].disabled = false;
             ligne5[2].focus();
@@ -480,7 +520,9 @@ function partie()
         };
         ligne5[2].onkeyup = function check18()
         {
-            tabRep.push(ligne5[2].value);
+            valeur = ligne5[2].value;
+            valeur = valeur.toUpperCase();
+            tabRep.push(valeur);
             ligne5[2].disabled = true;
             ligne5[3].disabled = false;
             ligne5[3].focus();
@@ -488,7 +530,9 @@ function partie()
         };
         ligne5[3].onkeyup = function check19()
         {
-            tabRep.push(ligne5[3].value);
+            valeur = ligne5[3].value;
+            valeur = valeur.toUpperCase();
+            tabRep.push(valeur);
             ligne5[3].disabled = true;
             ligne5[4].disabled = false;
             ligne5[4].focus();
@@ -496,8 +540,9 @@ function partie()
         };
         ligne5[4].onkeyup = function check20()
         {
-            console.log(ligne5[3].value);
-            tabRep.push(ligne5[4].value);
+            valeur = ligne5[4].value;
+            valeur = valeur.toUpperCase();
+            tabRep.push(valeur);
             var testRep = tabRep.join("");
             var compRep = charAtrouv.join("");
             for(i = 0 ; i < ligne5.length ; i ++)
